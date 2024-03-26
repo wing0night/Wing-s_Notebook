@@ -43,7 +43,7 @@ theme:
   language: zh
   name: material
   custom_dir: overrides
-  logo: 'icons/Favorites.png'
+  logo: 'icons/Services.png'
   palette:
     #scheme: myscheme
     # Toggle light mode

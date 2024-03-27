@@ -28,6 +28,7 @@ nav:
       - 微积分: LessonsInZJU/MathematicBasic/微积分.md
   - Learn:
     - 利用ROS可视化毫米波雷达点云: Learn/利用ROS可视化毫米波雷达点云.md
+    - 有关Linux虚拟机的文件结构: Learn/有关Linux虚拟机的文件结构.md
 
 
 theme:

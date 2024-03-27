@@ -29,6 +29,7 @@ nav:
   - Learn:
     - 利用ROS可视化毫米波雷达点云: Learn/利用ROS可视化毫米波雷达点云.md
     - 有关Linux虚拟机的文件结构: Learn/有关Linux虚拟机的文件结构.md
+    - 虚拟机搭建ROS开发环境: Learn/虚拟机搭建ROS开发环境.md
 
 
 theme:

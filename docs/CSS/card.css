@@ -4,3 +4,10 @@
     padding: 10px;
     border-radius: 5px;
   }
+
+  .remark-card {
+    border: 1px solid #0ed5aa;
+    background-color: rgb(29, 178, 146);
+    padding: 10px;
+    border-radius: 5px;
+  }

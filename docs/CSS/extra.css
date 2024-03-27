@@ -1,3 +1,17 @@
+body{
+  font-family: "LXGW WenKai", sans-serif;
+  /* Lite version */
+  /* font-family: "LXGW WenKai Lite", sans-serif; */
+  /* TC version */
+  /* font-family: "LXGW WenKai TC", sans-serif; */
+  /* Screen version */
+  /* font-family: "LXGW WenKai Screen", sans-serif; */
+}
+
+:root{
+--md-code-font: "LXGW WenKai";
+}
+
 [data-md-color-scheme="mylight"] {
   --md-hue:217;
   --md-hue2:54;
@@ -100,6 +114,7 @@ h1 {
   }
   
   /* 修改链接样式 */
+
 
   
   

@@ -10,22 +10,26 @@
       
       
       
+        <link rel="canonical" href="https://wing0night.github.io/Wing-s_Notebook/Learn/%E6%9C%89%E5%85%B3Linux%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/">
+      
+      
+        <link rel="prev" href="../%E5%88%A9%E7%94%A8ROS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E7%82%B9%E4%BA%91/">
       
       
       
-      <link rel="icon" href="/Wing-s_Notebook/icons/Favorites.png">
+      <link rel="icon" href="../../icons/Favorites.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
     
     
       
-        <title>Wing's Notebook</title>
+        <title>有关Linux虚拟机的文件结构 - Wing's Notebook</title>
       
     
     
-      <link rel="stylesheet" href="/Wing-s_Notebook/assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
       
         
-        <link rel="stylesheet" href="/Wing-s_Notebook/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,17 +48,17 @@
       
     
     
-      <link rel="stylesheet" href="/Wing-s_Notebook/CSS/extra.css">
+      <link rel="stylesheet" href="../../CSS/extra.css">
     
-      <link rel="stylesheet" href="/Wing-s_Notebook/CSS/card.css">
+      <link rel="stylesheet" href="../../CSS/card.css">
     
-      <link rel="stylesheet" href="/Wing-s_Notebook/CSS/label.css">
+      <link rel="stylesheet" href="../../CSS/label.css">
     
-      <link rel="stylesheet" href="/Wing-s_Notebook/CSS/custom.css">
+      <link rel="stylesheet" href="../../CSS/custom.css">
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css">
     
-    <script>__md_scope=new URL("/Wing-s_Notebook/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -91,9 +95,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="/Wing-s_Notebook/." title="Wing&#39;s Notebook" class="md-header__button md-logo" aria-label="Wing's Notebook" data-md-component="logo">
+    <a href="../.." title="Wing&#39;s Notebook" class="md-header__button md-logo" aria-label="Wing's Notebook" data-md-component="logo">
       
-  <img src="/Wing-s_Notebook/icons/Services.png" alt="logo">
+  <img src="../../icons/Services.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -110,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              有关Linux虚拟机的文件结构
             
           </span>
         </div>
@@ -213,7 +217,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/Wing-s_Notebook/AboutMe/" class="md-tabs__link">
+        <a href="../../AboutMe/" class="md-tabs__link">
           
   
     
@@ -233,7 +237,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/Wing-s_Notebook/InterestingExploration/%E8%AE%A1%E7%BD%91%E6%8A%93%E5%8C%85%E5%B0%8F%E5%AE%9E%E9%AA%8C/" class="md-tabs__link">
+        <a href="../../InterestingExploration/%E8%AE%A1%E7%BD%91%E6%8A%93%E5%8C%85%E5%B0%8F%E5%AE%9E%E9%AA%8C/" class="md-tabs__link">
           
   
     
@@ -259,7 +263,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/Wing-s_Notebook/LessonsInZJU/InterestingClasses/%E8%A7%86%E5%94%B1%E7%BB%83%E8%80%B3/" class="md-tabs__link">
+        <a href="../../LessonsInZJU/InterestingClasses/%E8%A7%86%E5%94%B1%E7%BB%83%E8%80%B3/" class="md-tabs__link">
           
   
     
@@ -278,11 +282,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/Wing-s_Notebook/Learn/%E5%88%A9%E7%94%A8ROS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E7%82%B9%E4%BA%91/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../%E5%88%A9%E7%94%A8ROS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E7%82%B9%E4%BA%91/" class="md-tabs__link">
           
   
     
@@ -323,9 +329,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/Wing-s_Notebook/." title="Wing&#39;s Notebook" class="md-nav__button md-logo" aria-label="Wing's Notebook" data-md-component="logo">
+    <a href="../.." title="Wing&#39;s Notebook" class="md-nav__button md-logo" aria-label="Wing's Notebook" data-md-component="logo">
       
-  <img src="/Wing-s_Notebook/icons/Services.png" alt="logo">
+  <img src="../../icons/Services.png" alt="logo">
 
     </a>
     Wing's Notebook
@@ -379,7 +385,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="/Wing-s_Notebook/AboutMe/" class="md-nav__link ">
+            <a href="../../AboutMe/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -412,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/AboutMe/template/" class="md-nav__link">
+      <a href="../../AboutMe/template/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -486,7 +492,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/InterestingExploration/%E8%AE%A1%E7%BD%91%E6%8A%93%E5%8C%85%E5%B0%8F%E5%AE%9E%E9%AA%8C/" class="md-nav__link">
+      <a href="../../InterestingExploration/%E8%AE%A1%E7%BD%91%E6%8A%93%E5%8C%85%E5%B0%8F%E5%AE%9E%E9%AA%8C/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -612,7 +618,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/LessonsInZJU/InterestingClasses/%E8%A7%86%E5%94%B1%E7%BB%83%E8%80%B3/" class="md-nav__link">
+      <a href="../../LessonsInZJU/InterestingClasses/%E8%A7%86%E5%94%B1%E7%BB%83%E8%80%B3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -689,7 +695,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/LessonsInZJU/MajorCourses_Chem/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6/" class="md-nav__link">
+      <a href="../../LessonsInZJU/MajorCourses_Chem/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -710,7 +716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/LessonsInZJU/MajorCourses_Chem/%E6%99%AE%E9%80%9A%E5%8C%96%E5%AD%A6/" class="md-nav__link">
+      <a href="../../LessonsInZJU/MajorCourses_Chem/%E6%99%AE%E9%80%9A%E5%8C%96%E5%AD%A6/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -787,7 +793,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/LessonsInZJU/MajorCourses_Control/%E8%AE%A1%E7%BD%91/" class="md-nav__link">
+      <a href="../../LessonsInZJU/MajorCourses_Control/%E8%AE%A1%E7%BD%91/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -808,7 +814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/LessonsInZJU/MajorCourses_Control/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+      <a href="../../LessonsInZJU/MajorCourses_Control/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -887,7 +893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/LessonsInZJU/MathematicBasic/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%92%8C%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/" class="md-nav__link">
+      <a href="../../LessonsInZJU/MathematicBasic/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%92%8C%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -908,7 +914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/LessonsInZJU/MathematicBasic/%E6%99%AE%E9%80%9A%E7%89%A9%E7%90%86%E5%AD%A6H/" class="md-nav__link">
+      <a href="../../LessonsInZJU/MathematicBasic/%E6%99%AE%E9%80%9A%E7%89%A9%E7%90%86%E5%AD%A6H/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -929,7 +935,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/LessonsInZJU/MathematicBasic/%E5%BE%AE%E7%A7%AF%E5%88%86/" class="md-nav__link">
+      <a href="../../LessonsInZJU/MathematicBasic/%E5%BE%AE%E7%A7%AF%E5%88%86/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -962,8 +968,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -974,21 +982,22 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -999,7 +1008,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Learn
@@ -1013,7 +1022,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/Learn/%E5%88%A9%E7%94%A8ROS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E7%82%B9%E4%BA%91/" class="md-nav__link">
+      <a href="../%E5%88%A9%E7%94%A8ROS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E7%82%B9%E4%BA%91/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1031,10 +1040,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/Wing-s_Notebook/Learn/%E6%9C%89%E5%85%B3Linux%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1043,6 +1059,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1083,8 +1100,43 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+    <a href="https://github.com/wing0night/Wing-s_Notebook/tree/master/docs/Learn/有关Linux虚拟机的文件结构.md" title="编辑此页" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
+    </a>
+  
+  
+
+
+  <h1>有关Linux虚拟机的文件结构</h1>
+
+<p>Linux中的所有文件和目录都位于根目录root下，root在地址索引中通常直接用'/'表示。</p>
+<p>在我的Linux虚拟机下列出了根目录下的文件夹
+<img alt="alt text" src="../image-1.png" /></p>
+<p>对于其中的一些比较重要的目录做了一定的理解，简述如下：
+<img alt="alt text" src="../90d4d7b7d4dc2d539986d48bc2b41dd.png" /></p>
+<p>其中/dev文件夹中不仅存放一些设备的驱动，还存放了访问外部设备的端口。我们可以非常方便地去访问这些外部设备，和访问一个文件，一个目录没有任何区别。（UNIX和LINUX系统的一个特点是把设备当成文件夹去访问）</p>
+<p>对于/media，一般用于挂载可移动设备或媒体储存介质，提供了一个统一的位置，让用户可以方便地访问和管理这些外部设备。这个目录下的挂载是自动进行的，可移动设备插入计算机时，操作系统会自动检测到该设备，然后将其挂载到/media目录下的一个子目录中，通常以设备名称或标识命名。于是可以使用文件管理器访问和读写设备中的文件。而对于/mnt目录：一般情况下，用户需要手动指定挂载点并进行挂载操作，可以根据需要自定义挂载点的名称和位置。此外，/mnt更为通用，可用于各种文件系统的挂载。</p>
+<p>对于/sys，它是一个虚拟文件系统，用于反映系统状态和提供系统管理的接口。可以在目录中找到有关硬件配置、状态和特性的详细信息。该目录下的一些文件允许读取和修改内核的参数和配置。通过修改这些文件，可以实现对系统的行为和性能的调整，例如调整调度器、内存管理和网络设置等。</p>
+<p>/var，缓存，存放系统运行时的数据等。一些安装包就默认下载到/var/cache下。</p>
+<p>对于Linux虚拟机文件结构的探索是从对ROS APT源upgrade失败开始的。之前有一次为了安装rosgraph，对apt源进行更新的过程中出现“在 /var/cache/apt/archives/ 上没有足够的可用空间”的问题。就是默认的安装包存放位置空间不足，这个问题可以使用将/var/cache/apt/archives/换成指向空间较为空闲的目录的软链接的方法来解决。</p>
+<p>对于/etc，为系统的核心配置文件，如果需要对系统配置进行更改(例如，更改主机名)，可以在etc文件夹中找到相应的文件。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1096,6 +1148,28 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../%E5%88%A9%E7%94%A8ROS%E5%8F%AF%E8%A7%86%E5%8C%96%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E8%BE%BE%E7%82%B9%E4%BA%91/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 利用ROS可视化毫米波雷达点云">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                利用ROS可视化毫米波雷达点云
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -1124,10 +1198,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/Wing-s_Notebook/", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.footer", "content.action.edit", "content.code.annotate"], "search": "/Wing-s_Notebook/assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.footer", "content.action.edit", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="/Wing-s_Notebook/assets/javascripts/bundle.bd41221c.min.js"></script>
+      <script src="../../assets/javascripts/bundle.bd41221c.min.js"></script>
       
     
   </body>

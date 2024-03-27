@@ -13,8 +13,7 @@ body{
 }
 
 [data-md-color-scheme="mylight"] {
-  --md-hue:217;
-  --md-hue2:54;
+  --md-hue:100;
   --md-primary-fg-color:        #97E7E1;/*导航栏的颜色*/
   --md-primary-fg-color--light: #b7ecd0;
   --md-primary-fg-color--dark:  #900303;

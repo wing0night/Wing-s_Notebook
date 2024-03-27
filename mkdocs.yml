@@ -26,6 +26,8 @@ nav:
       - 概率论和数理统计: LessonsInZJU/MathematicBasic/概率论和数理统计.md
       - 普通物理学(H): LessonsInZJU/MathematicBasic/普通物理学H.md
       - 微积分: LessonsInZJU/MathematicBasic/微积分.md
+  - Learn:
+    - 利用ROS可视化毫米波雷达点云: Learn/利用ROS可视化毫米波雷达点云.md
 
 
 theme:
@@ -42,6 +44,7 @@ theme:
     - content.code.annotate
   language: zh
   name: material
+  favicon: 'icons/Favorites.png'
   custom_dir: overrides
   logo: 'icons/Services.png'
   palette:

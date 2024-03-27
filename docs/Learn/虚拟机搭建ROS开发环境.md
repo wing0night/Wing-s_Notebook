@@ -28,17 +28,13 @@ ubuntu系统安装的一些配置如下
 
 然后利用apt命令安装了openVMTools工具
 
-<div class="remark-card">
+??? class "关于APT源"
 
-关于APT源<br /><br />
+    参考https://blog.csdn.net/cxs5534/article/details/105712085<br /><br />
 
-参考https://blog.csdn.net/cxs5534/article/details/105712085<br /><br />
+    APT是一个客户/服务器系统。在服务器上先复制所有DEB包，然后对所有的DEB包进行分析，并将该分析结果记录在一个文件中，这个文件称为DEB索引清单（即从网上各大应用商店生成APP索引），APT服务器的DEB索引清单置于base文件夹内。一旦APT 服务器内的DEB有所变动，一定要使用genbasedir产生新的DEB索引清单。客户端在进行安装或升级时先要查询DEB索引清单，从而可以获知所有具有依赖关系的软件包，并一同下载到客户端以便安装。<br /><br />
 
-APT是一个客户/服务器系统。在服务器上先复制所有DEB包，然后对所有的DEB包进行分析，并将该分析结果记录在一个文件中，这个文件称为DEB索引清单，APT服务器的DEB索引清单置于base文件夹内。一旦APT 服务器内的DEB有所变动，一定要使用genbasedir产生新的DEB索引清单。客户端在进行安装或升级时先要查询DEB索引清单，从而可以获知所有具有依赖关系的软件包，并一同下载到客户端以便安装。<br /><br />
-
-当客户端需要安装、升级或删除某个软件包时，客户端计算机取得DEB索引清单压缩文件后，会将其解压置放于/var/state/apt/lists/，而客户端使用apt-get install或apt-get upgrade命令的时候，就会将这个文件夹内的数据和客户端计算机内的DEB数据库比对，知道哪些DEB已安装、未安装或是可以升级的。<br />
-
-</div>
+    当客户端需要安装、升级或删除某个软件包时，客户端计算机取得DEB索引清单压缩文件后，会将其解压置放于/var/state/apt/lists/，而客户端使用apt-get install或apt-get upgrade命令的时候，就会将这个文件夹内的数据和客户端计算机内的DEB数据库比对，知道哪些DEB已安装、未安装或是可以升级的。<br />
 
 执行以下三行代码对openVMTools进行了安装（科学上网环境下，但是估计不需要科学上网也是可以的）
 
@@ -51,7 +47,7 @@ sudo apt-get install open-vm-tools-desktop
 注意这里安装完毕后重启才能生效。
 
 重启之后的拖动效果：（这里拖进去的时候需要停留一会才能实现拖动）
-![alt text](image.png)
+![alt text](60f3a1d4657f3e9fd77a5c4252e2750.png)
 
 ## 配置中文环境
 
@@ -59,14 +55,17 @@ sudo apt-get install open-vm-tools-desktop
 
 根据很多博客中的方法进行了尝试，在系统设置中完成语言的配置，但是发现还是得用命令行下载输入法才行，依据下面这篇csdn文章顺利完成了配置https://blog.csdn.net/Zhang950225/article/details/108435513
 
-## ROS系统安装
+这里试了一下，按照以上文章配置，启动虚拟机后第一次切换中英文输入法需要使用control+space，之后再切换输入法只需要敲shift了。
 
-借鉴了B站的教程https://www.bilibili.com/video/BV1aP41137k9/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=0ce5764b2d43320613b1dd7bc3ee3031
+## ROS相关配置
+
+有关ROS的配置借鉴了B站的教程https://www.bilibili.com/video/BV1aP41137k9/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=0ce5764b2d43320613b1dd7bc3ee3031
 
 但是因为虚拟机配置有所不同，加上是两年前的教程所以有些地方变了，所以还是踩了一些坑。
 
-首先安装ROS系统，这一步只需要在命令行中执行，所以如果在虚拟机中网速稍慢，可以在自己的电脑上打开ros.org网站，只需要复制其中相应的命令行代码。
+以下记录按照以上教程进行配置后的一些心得。
 
+首先安装ROS系统，这一步只需要在命令行中执行，所以如果在虚拟机中网速稍慢，可以在自己的电脑上打开ros.org网站，只需要复制其中相应的命令行代码。（另外这里注意一点，虚拟机中control+c和control+v默认是无法进行复制粘贴操作的，虚拟机内的复制粘贴只能右键然后选择copy/paste进行（这个也可以自己配置））
 
 
 

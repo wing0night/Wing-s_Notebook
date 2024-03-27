@@ -10,7 +10,6 @@ copyright: Copyright &copy; 2024 Wing0Night
 nav:
   - About me and this website:
     - AboutMe/index.md
-    - It's a template: AboutMe/template.md
   - 有意思的探索:
     - 计网抓包小实验: InterestingExploration/计网抓包小实验.md
   - Lessons in ZJU:
@@ -27,9 +26,10 @@ nav:
       - 普通物理学(H): LessonsInZJU/MathematicBasic/普通物理学H.md
       - 微积分: LessonsInZJU/MathematicBasic/微积分.md
   - Learn:
+    - 虚拟机搭建ROS开发环境: Learn/虚拟机搭建ROS开发环境.md
     - 利用ROS可视化毫米波雷达点云: Learn/利用ROS可视化毫米波雷达点云.md
     - 有关Linux虚拟机的文件结构: Learn/有关Linux虚拟机的文件结构.md
-    - 虚拟机搭建ROS开发环境: Learn/虚拟机搭建ROS开发环境.md
+    - It's a template: Learn/template.md
 
 
 theme:

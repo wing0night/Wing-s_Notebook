@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../icons/Favorites.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -1297,7 +1297,23 @@ sudo apt-get install open-vm-tools-desktop
 <p>有关ROS的配置借鉴了B站的教程https://www.bilibili.com/video/BV1aP41137k9/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;vd_source=0ce5764b2d43320613b1dd7bc3ee3031</p>
 <p>但是因为虚拟机配置有所不同，加上是两年前的教程所以有些地方变了，所以还是踩了一些坑。</p>
 <p>以下记录按照以上教程进行配置后的一些心得。</p>
-<p>首先安装ROS系统，这一步只需要在命令行中执行，所以如果在虚拟机中网速稍慢，可以在自己的电脑上打开ros.org网站，只需要复制其中相应的命令行代码。（另外这里注意一点，虚拟机中control+c和control+v默认是无法进行复制粘贴操作的，虚拟机内的复制粘贴只能右键然后选择copy/paste进行（这个也可以自己配置））</p>
+<p>首先安装ROS系统，这一步只需要在命令行中执行，所以如果在虚拟机中网速稍慢，可以在自己的电脑上打开ros.org网站，只需要复制其中相应的命令行代码。（另外这里注意一点，终端中的control+c有终止进程的效果，因此在终端中使用cv是无法复制粘贴的，终端中的复制粘贴只能右键然后选择copy/paste进行）</p>
+<details class="class">
+<summary>使用apt安装git</summary>
+<p>git安装
+<img alt="alt text" src="../image-2.png" />
+解决方法：重启解决99%的问题x</p>
+<p></r></r></p>
+<p>这里一开始找到的文章如下https://blog.csdn.net/lun55423/article/details/108907779。
+后来还是觉得随便删文件风险太大，后来参考了评论区重启的方法成功。</r></r></p>
+<p>后来发现git在一开始装ubuntu系统的时候就附带安装了</p>
+</details>
+<details class="class">
+<summary>启动Gazebo闪退/黑屏</summary>
+<p>使用Gazebo打开机器人仿真项目时，出现Error报错，且Gazebo打开后黑屏无法显示模型的问题，有时候打开了模型仍然发生闪退。</r></r></p>
+<p>尝试不从命令行加载模型，直接点击Gazebo图标打开，仍然发生闪退。</r></r></p>
+<p>解决方法：将虚拟机关机后编辑虚拟机设置中关闭3D加速。于是一切正常，不会报错，模型也能正常显示。</p>
+</details>
 
 
 
@@ -1391,7 +1407,7 @@ sudo apt-get install open-vm-tools-desktop
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.footer", "content.action.edit", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.bd41221c.min.js"></script>
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
       
     
   </body>
